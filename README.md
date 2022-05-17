@@ -11,7 +11,7 @@ Step 2: build the application by manual(build application) or Ctrl+Shift+B
 
 Step 3: Run the application with the help of option IIS Express(top middle of the VS2019), and minimize the application.
 
-Step 4: Go to Postman and call the API(i.e.: rewards) like sas follows:
+Step 4: Go to Postman and call the API(i.e.: rewards) like as follows:
 
 #Postman
 ========
