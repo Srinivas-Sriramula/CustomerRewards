@@ -5,7 +5,7 @@ Install                          | Version
 Visual Studio (recommended)      | VS 2019+
 .Net Framework                   | 4.7.2
 
-Step 1: Open the project from github.
+Step 1: Open the project in VS2019 from github.
 
 Step 2: build the application by using manual or Ctrl+Shift+B
 
