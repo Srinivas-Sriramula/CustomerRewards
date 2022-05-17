@@ -1,0 +1,20 @@
+﻿
+Api to caluclate and get reward points by based purchase amount:
+
+Request URL: https://localhost:44347/api/rewards
+Request method: POST
+Request Body: 
+				{
+				   "TotalAmount":123
+				}
+
+Response Body: 
+				{
+				    "Points": 96
+				}
+
+for success Status code: 200 OK
+for Invalid data Status code: 400 (i.e.: Invalid input)
+If we get any exception occurs in server, then Status code: 500 (i.e.: internal Server error like throw ex)
+
+
