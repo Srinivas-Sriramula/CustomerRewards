@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Add purchases";
+}
+
+<h2>Add purchases</h2>
+
+<div>
+    @*@Html.ActionLink("Back to List", "Index")*@
+    <li>@Html.ActionLink("Create New Record", "create", "Transaction", new { area = "" }, null)</li>
+</div>
+
+@model IEnumerable<CustomerRewards.Models.Customers>
+
+<div><br /></div>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>Customer Id </th>
+        <th>Customer Name </th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>Total Cost</th>
+        <th>Reward Points</th>
+        <th>Purchase Date</th>
+    </tr>
+    @if(Model != null)
+    {
+        foreach (var d in Model)
+        {
+            <tr>
+                <td>@d.CustomerId</td>
+                <td>@d.CustomerName</td>
+                <td>@d.CustomerPhone</td>
+                <td>@d.Email</td>
+                <td>@d.TotalCost</td>
+                <td>@d.RewardPoints</td>
+                <td>@d.PurchaseDate</td>
+
+            </tr>
+
+        }
+    }
+</table>
